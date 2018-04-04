@@ -5,12 +5,8 @@ document.addEventListener("DOMContentLoaded", function(){
   hamburger.addEventListener('click', function(e) {
     this.classList.toggle('nav-toggle-opened');
 
-
-
-
     if(menu.className == "menu__list"){
         menu.classList.add('menu__list--opened');
-      //  header.classList.add('sticky');
     }
     else{
         menu.classList.remove('menu__list--opened');
